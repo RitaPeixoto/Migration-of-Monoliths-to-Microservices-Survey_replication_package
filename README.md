@@ -13,15 +13,15 @@ and professionals from this field, focusing on how teams select and apply refact
 ## Content
 
 * `Migration of Monoliths to Microservices Survey - V3.csv`
-    - Corresponds to the raw results retrieved from Google Forms
+    - Corresponds to the raw results retrieved from Google Forms.
 * `Migration of Monoliths to Microservices Survey - V3 (Responses) - Form Responses 1_2.csv`
     - Corresponds to the results after data preparation was performed (mostly manually).
 * `industry_survey.ipynb`
     - Corresponds to the Jupyter Notebook with the analysis of the data collected.
 * `study1.pdf`
     - Corresponds to the survey from the Google Forms created.
-
-<!-- charm_acm_checklist.pdf - checklist of the ACM Empirical Standards "Questionnaire Surveys"-->
+* `pre_submission_checklist.pdf` 
+    - Corresponds to the checklist of the ACM Empirical Standards "Questionnaire Surveys."
 
 ## Procedure
 The study was performed through an online survey using *Google Forms* with an estimated time of *30 minutes* to complete.
@@ -29,20 +29,19 @@ The study was performed through an online survey using *Google Forms* with an es
 
 ## Findings
 * Practitioners plan the migration mostly to be interspersed with the product evolution
-* They mainly focus on web resources and other practitioners’ experiences to guide their migration.
+* They mainly focus on web resources and other practitioners' experiences to guide their migration.
 * Software documentation and development process data are
 used as data sources to decide how to decompose the monolith into microservices.
 * They mainly focus on decomposing by business
 capability or subdomain.
-* Strangler Fig, UI Compo- 12
-sition, Parallel Run, Branch by Abstraction, and Change code dependency to service call are the
+* Strangler Fig, UI Composition, Parallel Run, Branch by Abstraction, and Change code dependency to service call are the
 most used techniques to split the monolith.
 * When decomposing the database,
 Change Data Ownership is clearly more used than the other techniques.
 * Challenges faced during the migration process are database migration and data store splitting, consistency, and ensuring reliability.
 * A large share of practitioners does not use any tools to assist their migration.
 * They find
-that tools for deciding service boundaries, regression testing, microservice API design and refatoring code are needed. 
+that tools for deciding service boundaries, regression testing, microservice API design and refactoring code are needed. 
 * Refactoring tools should be easy to use, provide multiple decomposition alternatives and provide visualization.
 * Most of the respondents, when asked how they usually evaluate the result of the decomposition, mentioned that they did not do it, it was not worth the effort, or only sometimes, and some specifically said it is based on intuition.
 * Maintainability, Performance and Scalability are the quality attributes most assessed.
