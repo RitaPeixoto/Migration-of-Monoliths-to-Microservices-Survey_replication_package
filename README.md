@@ -7,9 +7,11 @@ evaluation methods used currently in the industry, we conducted a survey among s
 and professionals from this field, focusing on how teams select and apply refactorings. We obtained a total of 66 responses.
 
 ## Research Questions
-* RQ1. What is the refactoring process that they follow?
-* RQ2. What tools do they use? 10
-* RQ3. How do they evaluate the result from the decomposition?
+* RQ1. What is the refactoring process that professionals follow?
+* RQ2. What tools do professionals use?
+* RQ3. How do professionals evaluate the result of the decomposition?
+
+
 ## Content
 
 * `Migration of Monoliths to Microservices Survey - V3.csv`
